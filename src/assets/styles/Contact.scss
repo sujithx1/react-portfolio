@@ -3,23 +3,27 @@
   vertical-align: middle;
   margin-right: 5px;
 }
-
 .contact-form {
-  padding-top: 20px;
-
-  button {
-    float: right;
-    background-color: white;
-    color: #050f0b;
+  .MuiInputBase-input {
+    color: white !important; // Change to any color that contrasts with the background
   }
 
-  button:hover {
-    background-color: #5000ca;
-    color: white;
+  .MuiInputLabel-root {
+    color: white !important; // Change label color if needed
   }
 
-  fieldset {
-    background-color: white;
+  .MuiOutlinedInput-root {
+    fieldset {
+      border-color: white !important; // Adjust border color for visibility
+    }
+
+    &:hover fieldset {
+      border-color: lightgray !important;
+    }
+
+    &.Mui-focused fieldset {
+      border-color: #ffcc00 !important; // Change focus border color
+    }
   }
 }
 
