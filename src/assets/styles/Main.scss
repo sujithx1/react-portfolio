@@ -49,12 +49,20 @@
     }
 }
 
+
 .about-section .image-wrapper {
     z-index: 2;
-    img {
-        width: 150px;
-        border-radius: 50%;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section .image-wrapper img {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Ensures the image remains a perfect circle */
+    object-fit: cover; /* Ensures proper cropping if the image is not square */
+    border-radius: 50%;
+    display: block;
 }
 
 .about p {
