@@ -17,8 +17,8 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://github.com/sujithx1" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/sujithx1" target="_blank" rel="noreferrer"><h2>Retro-Service</h2></a>
+                <a href="https://github.com/sujithx1/Retro-Service-Backend" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/sujithx1/Retro-Service-Backend" target="_blank" rel="noreferrer"><h2>Retro-Service</h2></a>
                 <p>Location-based mechanic booking platform with chat and Map features. Integrated auto parts store similar to Instamart. Built using TypeScript, MongoDB, Express, React, Node.js, Firebase, Tailwind CSS.</p>
             </div>
             <div className="project">
